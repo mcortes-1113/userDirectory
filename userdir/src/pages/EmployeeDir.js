@@ -5,6 +5,8 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import DirImg from "./assets/directory.png";
+import SortBy from "../components/Sort";
+import FilterBy from "../components/Filter";
 
 function Home() {
     return (
@@ -26,32 +28,16 @@ function Home() {
                         </Col>
                     </Row>
                         <Row>
-                            <Col size="md-2">
-                                <p>Sort By: </p>
+                            <Col size="md-12">
+                                <SortBy />
+                                <FilterBy />
                             </Col>
-                                <Col size="md-3">
-                                    <p>Dropdown placeholder</p>
-                                </Col>
-                                    <Col size="md-7">
-                                        <p>Sort button placeholder</p>
-                                    </Col>
                         </Row>
                             <Row>
-                                <Col size="md-2">
-                                    <p>Filter By: </p>
+                                <Col size="md-12">
+                                    <h3>List of Cards will go here...</h3>
                                 </Col>
-                                    <Col size="md-3">
-                                        <p>Dropdown placeholder</p>
-                                    </Col>
-                                        <Col size="md-7">
-                                            <p>Filter button placeholder</p>
-                                        </Col>
                             </Row>
-                                <Row>
-                                    <Col size="md-12">
-                                        <h3>List of Cards will go here...</h3>
-                                    </Col>
-                                </Row>
                 </Container>
             {/* <h1 class="text-center">Directory Placeholder</h1>
             <h3 class="text-center">Placeholder</h3> */}
