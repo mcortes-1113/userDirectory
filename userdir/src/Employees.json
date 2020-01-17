@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Wick",
+      "image": "./components/ImageAssets/Man1.jpg",
+      "department": "Enforcement",
+      "active": "Yes"
+    },
+    {
+      "id": 2,
+      "firstName": "Bruce",
+      "lastName": "Wayne",
+      "image": "./components/ImageAssets/Man2.png",
+      "department": "Protection",
+      "active": "Yes"
+    },
+    {
+      "id": 3,
+      "firstName": "Dwayne",
+      "lastName": "Johnson",
+      "image": "./components/ImageAssets/Man3.jpg",
+      "department": "Enforcement",
+      "active": "Yes"
+    },
+    {
+      "id": 4,
+      "firstName": "Tony",
+      "lastName": "Stark",
+      "image": "./components/ImageAssets/Man4.png",
+      "department": "Protection",
+      "active": "No"
+    },
+    {
+      "id": 5,
+      "firstName": "Charles",
+      "lastName": "Xavier",
+      "image": "./components/ImageAssets/Man5.jpg",
+      "department": "Admin",
+      "active": "Yes"
+    },
+    {
+      "id": 6,
+      "firstName": "Black",
+      "lastName": "Widow",
+      "image": "./components/ImageAssets/Woman1.png",
+      "department": "Enforcement",
+      "active": "No"
+    },
+    {
+      "id": 7,
+      "firstName": "Buttercup",
+      "lastName": "Powerpuff",
+      "image": "./components/ImageAssets/Woman2.png",
+      "department": "Entertainment",
+      "active": "Yes"
+    },
+    {
+      "id": 8,
+      "firstName": "Bubbles",
+      "lastName": "Powerpuff",
+      "image": "./components/ImageAssets/Woman3.png",
+      "department": "Entertainment",
+      "active": "Yes"
+    },
+    {
+      "id": 9,
+      "firstName": "Blossom",
+      "lastName": "Powerpuff",
+      "image": "./components/ImageAssets/Woman4.jpg",
+      "department": "Entertainment",
+      "active": "Yes"
+    },
+    {
+      "id": 10,
+      "firstName": "Leia",
+      "lastName": "Organa",
+      "image": "./components/ImageAssets/Woman5.png",
+      "department": "Admin",
+      "active": "Yes"
+    }
+  ]
+  
