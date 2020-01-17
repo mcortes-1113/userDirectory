@@ -1,25 +1,25 @@
 import React from "react";
-import "./style.css";
+// import "./style.css";
 
 function EmployeeCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.firstname, props.lastname} src={props.image} />
+        <img alt={props.id} src={"props.image"} width={"100px"} height={"100px"} />
       </div>
       <div className="content">
         <ul>
           <li>
-            <strong>First Name:</strong> {props.firstname}
+            <strong>First Name:</strong> {props.firstName}
           </li>
           <li>
-            <strong>Last Name:</strong> {props.lastname}
+            <strong>Last Name:</strong> {props.lastName}
           </li>
           <li>
             <strong>Department:</strong> {props.department}
           </li>
           <li>
-            <strong>Title:</strong> {props.title}
+            <strong>Active Status:</strong> {props.active}
           </li>
         </ul>
       </div>
