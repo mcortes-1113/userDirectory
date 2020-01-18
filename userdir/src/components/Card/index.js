@@ -2,10 +2,11 @@ import React from "react";
 // import "./style.css";
 
 function EmployeeCard(props) {
+  console.log(props.image);
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.id} src={"props.image"} width={"100px"} height={"100px"} />
+        <img alt={props.id} src={props.image} width={"100px"} height={"100px"} />
       </div>
       <div className="content">
         <ul>
