@@ -4,7 +4,6 @@ import NavBar from "../components/NavBar";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import DirImg from "./assets/directory.png";
 
 function Home() {
     return (
@@ -14,15 +13,15 @@ function Home() {
                     <Row>
                         <Col size="md-2">
                             <img
-                                src={DirImg}
+                                src={"ImageAssets/directory.png"}
                                 alt="directory"
                                 width="150"
                                 height="150px"
                             />
                         </Col>
                             <Col size="md-6">
-                                <h1 class="text-center">Welcome</h1>
-                                    <h3 class="text-center">
+                                <h1 className="text-center">Welcome</h1>
+                                    <h3 className="text-center">
                                     Please use the link on the top of the page to navigate to the Employee Directory
                                     </h3>
                             </Col>

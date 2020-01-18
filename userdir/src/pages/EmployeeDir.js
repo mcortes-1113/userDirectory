@@ -4,7 +4,6 @@ import NavBar from "../components/NavBar";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import DirImg from "./assets/directory.png";
 import Employees from "../Employees.json";
 import SortBy from "../components/Sort";
 import FilterBy from "../components/Filter";
@@ -16,10 +15,9 @@ function Home() {
             <NavBar />
                 <Container>
                     <Row>
-                    {/* <Col size="md-2"> */}
                     <Col size="md-2">
                         <img
-                            src={DirImg}
+                            src={"ImageAssets/directory.png"}
                             alt="directory"
                             width="75px"
                             height="75px"
@@ -36,9 +34,6 @@ function Home() {
                             </Col>
                         </Row>
                             <Row>
-                                {/* <Col size="md-12">
-                                    <h3>List of Cards will go here...</h3>
-                                </Col> */}
                                 <Col size="md-12">
                                         <EmployeeCard
                                             image={Employees[0].image}
