@@ -4,12 +4,13 @@ import NavBar from "../components/NavBar";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import Employees from "../Employees.json";
+// import Employees from "../Employees.json";
 import SortBy from "../components/Sort";
 import FilterBy from "../components/Filter";
-import EmployeeCard from "../components/Card";
+import EmployeeList from '../components/EmployeeList';
+// import EmployeeCard from "../components/Card";
 
-function Home() {
+function Directory() {
     return (
         <div>
             <NavBar />
@@ -33,7 +34,8 @@ function Home() {
                                 <FilterBy />
                             </Col>
                         </Row>
-                            {Employees.map(employee => (
+                            <EmployeeList />
+                             {/* {sortedList.map(employee => (
                                 <Row>
                                     <Col size="md-12">
                                         <EmployeeCard
@@ -46,10 +48,10 @@ function Home() {
                                         />
                                     </Col>
                                 </Row>
-                            ))}                                    
+                            ))}                                      */}
                 </Container>
         </div>
     )
 }
 
-export default Home;
+export default Directory;
