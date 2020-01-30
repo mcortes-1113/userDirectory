@@ -6,9 +6,18 @@ import Col from "../Col";
 
 function EmployeeList() {
 
+    const [employeeList, setEmployeeList] = useState(Employees);
+
+    // function sort() {
+    //     console.log("sort");
+    //     const sorted = [].concat(employeeList) 
+    //       .sort((a, b) => (a.lastName > b.lastName) ? 1 : -1);
+    //       console.log(sorted);
+    //   }
+
 return (
 
-Employees.map(employee => (
+employeeList.map(employee => (
 
     <Row>
         <Col size="md-12">

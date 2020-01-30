@@ -19,7 +19,7 @@ function FilterBy() {
 
   return (
     <div>
-    <button type="button" className="btn btn-light" onClick = { filterInactive }>Show Inactive Employees Only</button>
+    <button type="button" className="btn btn-light" style={{marginRight: "10px"}} onClick = { filterInactive }>Show Inactive Employees Only</button>
     <button type="button" className="btn btn-light" onClick = { filterActive }>Show Active Employees Only</button>
     </div>
   )

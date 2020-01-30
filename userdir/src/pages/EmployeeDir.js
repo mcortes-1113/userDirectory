@@ -28,27 +28,15 @@ function Directory() {
                             <h1>Employee Directory</h1>
                         </Col>
                     </Row>
+                    <br />
                         <Row>
                             <Col size="md-12">
-                                <SortBy />
-                                <FilterBy />
+                                <SortBy /><br />
+                                <FilterBy /><br />
+                                <h6 style={{color: "red"}}>***Button function only work on console log for now***</h6><br />
                             </Col>
                         </Row>
                             <EmployeeList />
-                             {/* {sortedList.map(employee => (
-                                <Row>
-                                    <Col size="md-12">
-                                        <EmployeeCard
-                                            image={employee.image}
-                                            id={employee.id}
-                                            firstName={employee.firstName}
-                                            lastName={employee.lastName}
-                                            department={employee.department}
-                                            active={employee.active}
-                                        />
-                                    </Col>
-                                </Row>
-                            ))}                                      */}
                 </Container>
         </div>
     )

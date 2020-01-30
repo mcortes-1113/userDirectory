@@ -1,10 +1,11 @@
 import React from "react";
 import Employees from "../../Employees.json";
+// import EmployeeList from "../EmployeeList";
+import Directory from "../../pages/EmployeeDir.js";
 
 function SortBy() {
 
   function sort() {
-    console.log("sort");
     const sorted = [].concat(Employees) 
       .sort((a, b) => (a.lastName > b.lastName) ? 1 : -1);
       console.log(sorted);
